@@ -1,0 +1,75 @@
+/* ページ全体 */
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background-color: #f5f7fa;
+  color: #333333;
+  line-height: 1.8;
+}
+
+/* 上部の名前エリア */
+.header {
+  background-color: #2f6fed;
+  color: #ffffff;
+  text-align: center;
+  padding: 48px 16px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header p {
+  margin: 8px 0 0;
+}
+
+/* 中央の内容エリア */
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* 各項目のカード */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #2f6fed;
+}
+
+/* 学習中の技術（タグ風に横並び） */
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills li {
+  background-color: #e8f0fe;
+  border-radius: 16px;
+  padding: 4px 12px;
+}
+
+/* リンク */
+.links a {
+  color: #2f6fed;
+}
+
+/* 下部 */
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #888888;
+  padding: 24px 0;
+}
